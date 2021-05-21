@@ -1,0 +1,80 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Configuration>
+<Process>
+  <BusinessUnit>Logistics</BusinessUnit>
+  <Department>FreightServices</Department>
+  <Area>Traffic</Area>
+  <ProcessID>001</ProcessID>
+  <ProcessName>TrafficFormMainframe</ProcessName>
+  <DebugLogFlag>False</DebugLogFlag>
+  <CleanUpApplications>notepad.exe,wordpad.exe,excel.exe,iexplore.exe,firefox.exe</CleanUpApplications>
+  <LogFileNamePrefix>Log_</LogFileNamePrefix>
+  <LogFileHeader>"TimeStamp","SystemUsername","MachineName","ProcessID","ProcessName","TaskName","LogLevel","CPUUsage(%)","RAMUsage(MB)","RecordIdentifier","Description"</LogFileHeader>
+  <ExcelEmailNotification>001_TrafficFormMainframe.xlsx</ExcelEmailNotification>
+  <ExcelEmailNotificationWorksheet>EmailNotification</ExcelEmailNotificationWorksheet>
+  <ExcelFieldMapping>001_TrafficFormMainframe.xlsx</ExcelFieldMapping>
+  <ExcelFieldMappingWorksheet>[FieldMapping$]</ExcelFieldMappingWorksheet>
+  <FormURL>https://app.form.com/report/41555669/41266357/742614ac129826ecf36129b155b6baac?Dir=&amp;Enc_Dir=aa2a5b7c&amp;av=ZjqrO3SP9Ac%3D&amp;afterVoting=ad75e0112e60</FormURL>
+  <FormURL_Login>https://app.form.com/reportmodule/REPORT5/report/41555669/41266357/742614ac129826ecf36129b155b6baac?Dir=&amp;Enc_Dir=aa2a5b7c&amp;av=ZjqrO3SP9Ac%3D&amp;afterVoting=ad75e0112e60&amp;msig=d0c538b43dad0cf9b91597f4cdd9de11 - Google Chrome</FormURL_Login>
+  <DownloadReportName>TrafficReport_.xls</DownloadReportName>
+  <DownloadReportWorksheet>Results</DownloadReportWorksheet>
+  <OutputReportName>OutputReport_.xlsx</OutputReportName>
+  <OutputReportWorksheet>Results</OutputReportWorksheet>
+  <OutputReportAdditionalColumns>Status,Reason,AddToSharepoint,SharepointReason</OutputReportAdditionalColumns>
+  <OutputReportHideColumns>N:CJ</OutputReportHideColumns>
+  <LastProcessedDateTimeFile>LastProcessed.txt</LastProcessedDateTimeFile>
+  <ExcelDeleteTopRows>3</ExcelDeleteTopRows>
+  <DelayMin>1</DelayMin>
+  <DelayAvg>3</DelayAvg>
+  <DelayMax>5</DelayMax>
+  <RetryLogin>3</RetryLogin>
+  <MainframeHostname>171.74.160.105</MainframeHostname>
+  <SharepointProcess>NIT Ingate Form</SharepointProcess>
+  <HoldForDataReveiw>True</HoldForDataReveiw>
+</Process>
+<Development>
+  <SharepointIssueLoggedBy>17</SharepointIssueLoggedBy>
+  <FolderPathRPARoot>C:\RPA</FolderPathRPARoot>
+  <FolderPathAssets>C:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Assets</FolderPathAssets>
+  <FolderPathInput>C:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Input</FolderPathInput>
+  <FolderPathOutput>C:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Output</FolderPathOutput>
+  <FolderPathLog>C:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Log</FolderPathLog>
+  <FolderPathScreenshot>C:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Screenshot</FolderPathScreenshot>
+  <FolderPathTemp>C:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Temp</FolderPathTemp>
+  <FolderPathNetworkRoot>F:\RPA\OneDrive - Crowley\BotsLogs\Logistics\FreightServices\Traffic\001_TrafficFormMainframe</FolderPathNetworkRoot>
+  <FolderPathNetworkAssets>F:\RPA\OneDrive - Crowley\BotsLogs\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Assets</FolderPathNetworkAssets>
+  <FolderPathNetworkInput>F:\RPA\OneDrive - Crowley\BotsLogs\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Input</FolderPathNetworkInput>
+  <FolderPathNetworkOutput>F:\RPA\OneDrive - Crowley\BotsLogs\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Output</FolderPathNetworkOutput>
+  <FolderPathNetworkLog>F:\RPA\OneDrive - Crowley\BotsLogs\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Log</FolderPathNetworkLog>
+</Development>
+<UAT>
+  <SharepointIssueLoggedBy>17</SharepointIssueLoggedBy>
+  <FolderPathRPARoot>C:\RPA</FolderPathRPARoot>
+  <FolderPathAssets>C:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Assets</FolderPathAssets>
+  <FolderPathInput>C:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Input</FolderPathInput>
+  <FolderPathOutput>C:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Output</FolderPathOutput>
+  <FolderPathLog>C:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Log</FolderPathLog>
+  <FolderPathScreenshot>C:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Screenshot</FolderPathScreenshot>
+  <FolderPathTemp>C:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Temp</FolderPathTemp>
+  <FolderPathNetworkRoot>F:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe</FolderPathNetworkRoot>
+  <FolderPathNetworkAssets>F:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Assets</FolderPathNetworkAssets>
+  <FolderPathNetworkInput>F:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Input</FolderPathNetworkInput>
+  <FolderPathNetworkOutput>F:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Output</FolderPathNetworkOutput>
+  <FolderPathNetworkLog>F:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Log</FolderPathNetworkLog>
+</UAT>
+<Production>
+  <SharepointIssueLoggedBy>13</SharepointIssueLoggedBy>
+  <FolderPathRPARoot>C:\RPA</FolderPathRPARoot>
+  <FolderPathAssets>C:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Assets</FolderPathAssets>
+  <FolderPathInput>C:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Input</FolderPathInput>
+  <FolderPathOutput>C:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Output</FolderPathOutput>
+  <FolderPathLog>C:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Log</FolderPathLog>
+  <FolderPathScreenshot>C:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Screenshot</FolderPathScreenshot>
+  <FolderPathTemp>C:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Temp</FolderPathTemp>
+  <FolderPathNetworkRoot>F:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe</FolderPathNetworkRoot>
+  <FolderPathNetworkAssets>F:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Assets</FolderPathNetworkAssets>
+  <FolderPathNetworkInput>F:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Input</FolderPathNetworkInput>
+  <FolderPathNetworkOutput>F:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Output</FolderPathNetworkOutput>
+  <FolderPathNetworkLog>F:\RPA\Logistics\FreightServices\Traffic\001_TrafficFormMainframe\Log</FolderPathNetworkLog>
+</Production>
+</Configuration>

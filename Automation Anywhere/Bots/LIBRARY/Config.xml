@@ -1,0 +1,6 @@
+<Configuration>
+<Process>
+    <DebugLogFlag>False</DebugLogFlag>
+    <LogFileHeader>"TimeStamp","SystemUsername","MachineName","ProcessID","ProcessName","TaskName","LogLevel","CPUUsage(%)","RAMUsage(MB)","RecordIdentifier","Description"</LogFileHeader>
+</Process>
+</Configuration>
