@@ -1,1 +1,1 @@
-{"path":"Automation Anywhere\\Bots\\Logistics\\Freight Services\\Traffic\\001_TrafficFormMainframe\\001_FormDownloadFile","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\LIBRARY\\SendEmailNotification","Automation Anywhere\\Bots\\LIBRARY\\LogToFile"]}
+{"path":"Automation Anywhere\\Bots\\Logistics\\Freight Services\\Traffic\\001_TrafficFormMainframe\\001_FormDownloadFile","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\LIBRARY\\LogToFile","Automation Anywhere\\Bots\\LIBRARY\\SendEmailNotification"]}
